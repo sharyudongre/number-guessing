@@ -4,7 +4,6 @@ play_game='yes'
 
 while play_game == 'yes':
     answer =random.randint(1,100)
-    print(answer)
     try_number=int(input('Guess a integer number between 1 and 10: '))
 
 
